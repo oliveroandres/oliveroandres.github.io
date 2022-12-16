@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/software.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="images/code.svg" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                }
+                else {
+                    $(".item").addClass("active");
+                }
+            })
+        });
+    </script>
+    <title>github.io</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul class="menu">
+                <img src="images/icon/code.svg" height="60px" width="60px" alt="">
+                <li class="logo"><a href="https://www.github.com/oliveroandres" target="_blank">GITHUB</a></li>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="projects.html">Projects</a></li>
+                <li class="item"><a href="skills.html">Skills</a></li>
+                <li class="item"><a href="other.html">Other</a></li>
+                <li class="item button secondary"><a href="#"
+                        class="btn-area" target="_blank">Download CV</a></li>
+                <li class="toggle"><span class="bars"></span></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="swup" class="transition-fade">
+
+    <div class="container">
+        <h2>Software</h2>
+        <hr>
+        <div class="row">
+
+
+            <div class="col-lg-6 col-md-6 mb-6">
+                <div id="s-card">
+
+                    <div class="card-software mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/hardware/keyboard.jpg" id="img" width="200px" height="150px"
+                                    class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title"><b>Modded Lenovo Keyboard</b></h6>
+                                    <hr>
+                                    <p class="card-text">This is a cheap Lenovo keyboard that i modded.... </p>
+                                    <p class="card-text"><small class="text-muted">Published: 30-10-2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 mb-6">
+                <div id="s-card">
+
+                    <div class="card-software mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="#" id="img" width="200px" height="150px" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title"><b>Pvc Light-Box</b></h6>
+                                    <hr>
+                                    <p class="card-text">This is a light box for products photo shooting made od pvc...
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Published: 30-10-2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="row">
+
+
+            <div class="col-lg-6 col-md-6 mb-6">
+                <div id="s-card">
+
+                    <div class="card-software mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="#" id="img" width="200px" height="150px"
+                                    class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title"><b>Modded Lenovo Keyboard</b></h6>
+                                    <hr>
+                                    <p class="card-text">This is a cheap Lenovo keyboard that i modded.... </p>
+                                    <p class="card-text"><small class="text-muted">Published: 30-10-2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 mb-6">
+                <div id="s-card">
+
+                    <div class="card-software mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="#" id="img" width="200px" height="150px" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title"><b>Pvc Light-Box</b></h6>
+                                    <hr>
+                                    <p class="card-text">This is a light box for products photo shooting made od pvc...
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Published: 30-10-2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       <br>
+        <nav1 aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </1nav>
+        
+        <br>
+      
+        <br>
+
+    </main>
+
+        <footer>
+            <div class="footer">github.io</div>
+        </footer>
+       
+<!--Scripts-->
+
+<!--Scripts-End-->
+
+</body>
+
+</html>

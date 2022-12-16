@@ -1,0 +1,43 @@
+#h-card{
+
+   
+    margin-top: 2em;
+    position:  flex;
+    text-align: center;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    backdrop-filter: blur(50px);
+    padding-left: 1em;
+    padding-right: 1em;
+
+    
+}
+
+h2{
+    color: white;
+}
+
+#img{
+
+    
+    padding-top: 1em;
+    
+}
+
+ .cardsoftware-body{
+
+    backdrop-filter: blur(50px);
+    
+ }
+
+ .card-title{
+     color: white;
+     padding-top: 1em;
+     
+ }
+
+ .card-text{
+     color: white;
+ }

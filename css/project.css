@@ -1,0 +1,22 @@
+
+
+#p-card{
+
+    backdrop-filter: blur(50px);
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+    text-align: center;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+#p-card h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+

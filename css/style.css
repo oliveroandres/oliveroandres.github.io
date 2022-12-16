@@ -1,0 +1,314 @@
+
+.transition-fade {
+    transition: 500ms;
+    opacity: 1;
+    transform: translateX(0);
+    transform-origin: left;
+  }
+
+  
+  
+html.is-animating .transition-fade {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+html.is-leaving .transition-fade{
+    opacity: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+
+    background-image: url(../images/background/background.png);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    -webkit-background-size: cover;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+
+
+
+#h4{
+    color: white;
+}
+
+#h5{
+    color: white;
+}
+
+nav {
+
+    backdrop-filter: blur(100px);
+    background-color: none;
+     padding-right: 20px;
+     
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+
+color: rgb(31, 124, 225);
+
+}
+
+.menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+}
+
+.menu li a {
+    display: block;
+}
+
+.logo a {
+    font-size: 20px;
+    
+}
+
+.item.button.secondary {
+    border-bottom: rgba(233, 231, 231, 0.576) solid;
+    
+}
+
+#card{
+
+    margin-top: 2em;
+    backdrop-filter: blur(40px);
+    background-color: none;
+    padding-bottom: 2em;
+}
+/*Mobile Menu*/
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    order: 1;
+}
+
+.item.button {
+    order: 2;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+
+.toggle {
+    cursor: pointer;
+}
+
+
+.bars {
+    background: #999;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+}
+
+.bars::before,.bars::after {
+    background: #999;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 18px;
+}
+
+.bars::before {
+    top: 5px;
+}
+
+.bars::after {
+    top: -5px
+}
+
+#card{
+
+    margin-top: 2em;
+    backdrop-filter: blur(40px);
+    background-color: none;
+    padding-bottom: 2em;
+}
+
+/*Tablet Menu*/
+hr{
+    color: white;
+}
+
+#h4{
+    color: white;
+}
+
+#h5{
+    color: white;
+}
+
+@media all and (min-width:468px){
+    .menu {
+        justify-content: center;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+
+    .toggle {
+        order: 2;
+    }
+
+    .item.button.secondary {
+        border: 0;
+    }
+
+    .button a {
+        text-decoration: none;
+        padding: 7px 15px;
+        border: 1px solid white;
+        border-radius:50em;
+    }
+
+    .item.button.secondary a {
+        background: transparent;
+    }
+
+    .button a:hover {
+        transition: all .25s;
+    }
+
+
+    .button.secondary a:hover {
+        color: rgb(31, 124, 225);
+    }
+
+}
+
+#card{
+
+    margin-top: 2em;
+    backdrop-filter: blur(40px);
+    background-color: none;
+    padding-bottom: 2em;
+}
+
+
+@media all and (min-width:767px){
+
+    .item {
+        display: block;
+        width: auto;
+    }
+
+    .toggle {
+        display: none;
+
+    }
+
+    .logo {
+        order: 0;
+        
+    }
+
+    
+
+    .item {
+        order: 1;
+    }
+
+    .button {
+        order: 2;
+    }
+
+    .menu li {
+        padding: 15px 10px;
+    }
+
+    .menu li.button {
+        padding-right: 0;
+    }
+
+}
+#card{
+
+    margin-top: 2em;
+    backdrop-filter: blur(40px);
+    background-color: none;
+    padding-bottom: 2em;
+}
+
+.footer {
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+  
+    background-color: none;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(100px);
+}
+
+
+hr{
+    color: white;
+}
+
+#h4{
+    color: white;
+}
+
+#h5{
+    color: white;
+}
+
+#card{
+
+    margin-top: 2em;
+    backdrop-filter: blur(40px);
+    background-color: none;
+    padding-bottom: 2em;
+}

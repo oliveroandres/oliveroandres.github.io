@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="images/favicon/code.svg" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                }
+                else {
+                    $(".item").addClass("active");
+                }
+            })
+        });
+    </script>
+    <title>github.io</title>
+</head>
+
+<body>
+    <header>
+     <!--Navbar-->
+     <nav>
+
+        <ul class="menu">
+            <img src="images/icon/code.svg" height="60px" width="60px" alt="">
+            <li class="logo"><a href="https://www.github.com/oliveroandres" target="_blank">GITHUB</a></li>
+            <li class="item"><a href="/index.html">Home</a></li>
+            <li class="item"><a href="/projects.html">Projects</a></li>
+            <li class="item"><a href="/skills.html">Skills</a></li>
+            <li class="item"><a href="/other.html">Other</a></li>
+            <li class="item button secondary"><a href="#" class="btn-area" target="_blank">Download CV</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+
+        </ul>
+    </nav>
+     <!--Navbar-End-->
+
+    </header>
+    <main id="swup" class="transition-fade">
+
+        <div class="container">
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 mb-4">
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 mb-4">
+                        <div id="card">
+                            <img src="images/card/code.svg" height="200px" width="200px" alt="">
+
+                            <center>
+                                <h4 id="h4">Andres Felipe Olivero</h4>
+                            </center>
+
+                            <center>
+                                <h5 id="h5">Software Developer</h5>
+                            </center>
+                            <div class="container">
+                                <hr>
+                            </div>
+                            <div class="social-media">
+
+                                <a href="https://api.whatsapp.com/send/?phone=573014452974&text&app_absent=0"
+                                    target="_blank"><img src="images/social/whatsapp.png" class="social"
+                                        height="30px" width="30px" alt=""></a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=andresolivero80@gmail.com&su=SUBJECT"
+                                    target="_blank"><img src="images/social/email.png" class="social"
+                                        height="30px" width="30px" alt=""></a>
+                                <a href="https://www.instagram.com/oliveroandres/" target="_blank"><img
+                                        src="images/social/instagram.png" class="social" height="30px"
+                                        width="30px" alt=""></a>
+                                <a href="https://www.github.com/oliveroandres/" target="_blank"><img
+                                        src="images/social/github.png" class="social" height="30px"
+                                        width="30px" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mb-4">
+
+                    </div>
+                </div>
+
+            </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="footer">github.io</div>
+    </footer>
+    <!--Footer-End-->
+
+    <!--Scripts-->
+    
+    <!--Scripts-End-->
+
+</body>
+
+</html>
